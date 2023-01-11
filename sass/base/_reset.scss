@@ -1,0 +1,55 @@
+body {
+    font-family: $mainFont, sans-serif;
+    font-size: 14px;
+    background: $main-white-color;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: content-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: $main-black-color;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacts {
+    list-style: none;
+    margin-left: auto;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

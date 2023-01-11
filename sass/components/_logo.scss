@@ -1,0 +1,33 @@
+%logotyp {
+    font-family: $secondaryFont;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo--black {
+    @extend %logotyp;
+    color: $main-black-color;
+}
+
+.logo--blue {
+    @extend %logotyp;
+    color: $main-blue-color;
+}
+
+.logo {
+    @extend %logotyp;
+    color: $main-blue-color;
+}
+
+.logo--white {
+    @extend %logotyp;
+    color: $main-white-color;
+}
+
+.logo--header {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
